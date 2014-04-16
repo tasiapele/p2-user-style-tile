@@ -1,28 +1,132 @@
-/* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 0;
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	margin: 15px 10px 0px 10px;
+	color: #3E13AF;
 }
 
-/* Layout for Style Tile*/
-section {
-	margin: 20px 0;
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	color: #00782D;
+	float:right;
+	margin: 20px;
 }
 
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	font-style: italic;
+	color: #00782D;
+	margin: 15px 10px 0px 10px;
+}
+
+h5{
+	font-family: 'Roboto', sans-serif;
+	color: silver;
+	margin: 0px 5px 5px 10px;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	margin: 15px 5px 5px 10px;
+}
+gin: 10px;
+}
+/*image*/
+img{
+	width: 100px;
+	height: 100px;
+	margin: 25px;
+
+}
+
+
+/*colors*/
 .color-1,
 .color-2,
 .color-3,
-.pattern-1,
-.pattern-2,
-.pattern-3 {
-	border: 1px solid #000;
+.color-4{
+	border: 2px solid #000;
+	height:50px;
 	float: left;
-	margin: 0 10px;
-	height: 50px;
+	margin: 10px;
 	width: 50px;
 }
 
+.color-1{
+	background: #3E13AF;
+}
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+.color-2{
+	background-color: white;
+}
+
+.color-3{
+	background-color: #000;
+}
+
+.color-4{
+	background-color: #00782D;
+}
+
+/*texture*/
+.tex-1,
+.tex-2,
+.tex-3{
+	border: 2px solid #000;
+	height:112px;
+	float: left;
+	margin: 10px;
+	width: 100px;
+}
+
+.tex-1{
+	background: url("../img/MJOversonBookCover.jpg");
+}
+
+.tex-2{
+	background: url("../img/images (1).jpeg");
+}
+
+.tex-3{
+	background: url("../img/images.jpeg");
+}
+
+/*body*/
+
+
+header{
+	background: #F7F7F7;
+}
+
+article section{
+	background: #F7F7F7;
+	float: left;
+}
+
+hr{
+	padding: 1px;
+	background-color: #383838;
+}
+
+footer{
+	background: #F7F7F7;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+}
+
+body{
+	background: url("../img/images (1).jpeg");
+}
+
+
+/*hover*/
+a:link,
+a:visited {
+	color: #B10000;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 30px;
 }
